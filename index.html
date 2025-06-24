@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFO 2 - PR - Sistema de Gestión de Tareas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .code {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+        .important {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 PFO 2 - Sistema de Gestión de Tareas</h1>
+        <p><strong>API REST con Flask y SQLite</strong></p>
+    </div>
+
+    <div class="important">
+        <h3>⚠️ Importante</h3>
+        <p>Esta es una <strong>aplicación Flask</strong> que requiere Python para ejecutarse. GitHub Pages solo sirve archivos estáticos, por lo que el servidor debe ejecutarse localmente.</p>
+    </div>
+
+    <div class="section">
+        <h2>Cómo Ejecutar el Proyecto</h2>
+        
+        <h3>1. Clonar el repositorio</h3>
+        <div class="code">git clone https://github.com/TU_USUARIO/TU_REPO.git
+cd TU_REPO</div>
+
+        <h3>2. Instalar dependencias</h3>
+        <div class="code">pip install flask</div>
+
+        <h3>3. Ejecutar el servidor</h3>
+        <div class="code">python servidor.py</div>
+
+        <h3>4. Acceder a la aplicación</h3>
+        <p>Una vez ejecutándose, la aplicación estará disponible en:</p>
+        <div class="code">http://localhost:5000</div>
+    </div>
+
+    <div class="section">
+        <h2>📋 Funcionalidades Implementadas</h2>
+        <ul>
+            <li>✅ <strong>POST /registro</strong> - Registro de usuarios</li>
+            <li>✅ <strong>POST /login</strong> - Autenticación</li>
+            <li>✅ <strong>GET /tareas</strong> - Página de bienvenida (requiere login)</li>
+            <li>✅ <strong>POST /logout</strong> - Cerrar sesión</li>
+            <li>✅ <strong>Contraseñas hasheadas</strong> con SHA-256 + salt</li>
+            <li>✅ <strong>Base de datos SQLite</strong> persistente</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🧪 Pruebas del Sistema</h2>
+        <p>Ejecuta el script de pruebas automatizadas:</p>
+        <div class="code">python test_api.py</div>
+        
+        <p>O prueba manualmente desde la consola del navegador después de ejecutar el servidor.</p>
+    </div>
+
+    <div class="section">
+        <h2>📁 Archivos del Proyecto</h2>
+        <ul>
+            <li><strong>servidor.py</strong> - Código principal del servidor Flask</li>
+            <li><strong>README.md</strong> - Documentación completa</li>
+            <li><strong>test_api.py</strong> - Script de pruebas</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📸 Capturas de Pantalla</h2>
+        <p>Las capturas de pantalla del funcionamiento están disponibles en la carpeta <code>/test_images</code> del repositorio.</p>
+    </div>
+</body>
+</html>
